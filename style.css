@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Instrument Serif', serif;
+    font-family: 'Poltawski Nowy', serif;
+}
+
+body{
+    background-image: url(./img/pexels-gije-cho-16732092.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.head{
+    
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    text-align: center;
+    width: 400px;
+    padding: 20px;
+   
+    
+    
+}
+.login{
+    
+   background: rgba(255, 255, 255, 0.2);
+   border-radius: 16px;
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(5px);
+   -webkit-backdrop-filter: blur(5px);
+   border: 1px solid rgba(255, 255, 255, 0.3);
+
+   margin-top: 20px;
+   padding-left: 15px;
+   height: 400px;
+   
+}
+
+.login form{
+    margin: 30px auto;
+ 
+}
+
+.login input{
+   
+    width: 65%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 20px;
+}
+.login i{
+    font-size: 1.5rem;
+    color: black;
+    padding-left: 10px;
+}
+
+.login a{
+    color: black;
+    margin-top: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.login a:hover{
+   color: aquamarine;
+}
+
+.login button{
+    font-size: 1.2rem;
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: grey;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px auto;
+    
+}
+.login button:hover{
+    background-color: black;
+    color: aquamarine;
+    transition: .5s;
+}
+
+.create {
+
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    margin-top: 20px;
+    height: 100%;
+    padding-left: 15px;
+    
+    
+
+
+}
+
+.create form{
+    margin: 30px auto;
+}
+
+.create input{
+    width: 65%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 20px;
+}
+
+.create i{
+    font-size: 1.5rem;
+    color: black;
+    padding-left: 10px;
+}
+
+.create button{
+    font-size: 1.2rem;
+    padding: 8px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: grey;
+    color: #fff;
+    cursor: pointer;
+   
+    
+}
+.create button:hover{
+    background-color: black;
+    color: aquamarine;
+    transition: .5s;
+}
+
+.create a{
+    color: black;
+    margin-top: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.create a:hover{
+   color: aquamarine;
+}
+
+.create p{
+    margin-top: 15px;
+}
+
+ .alert-danger{
+   background-color: #be6262;
+   margin: 10px;
+   padding: 15px;
+   width: 300px;
+   border-radius: 10px;
+   
+}
+
+
+
+.welcome {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 100px;
+   height: 100px;
+  
+   
+  }
+  
+  .welcome h2 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .welcome a {
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .welcome a:hover {
+    background-color: #0056b3;
+  }
+  
